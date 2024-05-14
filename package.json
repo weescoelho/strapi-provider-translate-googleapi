@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-translate-google",
+  "name": "strapi-provider-translate-googleapi",
   "version": "1.0.0",
   "description": "Cloud Translate API Google integration for Strapi 4",
   "main": "./lib",
