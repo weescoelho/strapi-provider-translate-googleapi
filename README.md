@@ -12,13 +12,13 @@ Before you begin, make sure you've met the following requirements:
 ## 🚀 Installation
 
 ```
-npm install strapi-provider-translate-google
+npm install strapi-provider-translate-googleapi
 ```
 
 or:
 
 ```
-yarn add strapi-provider-translate-google
+yarn add strapi-provider-translate-googleapi
 ```
 
 ## ☕ Configuration
@@ -52,6 +52,9 @@ module.exports = {
         client_email: env("STRAPI_GOOGLE_CLIENT_EMAIL"),
         client_id: env("STRAPI_GOOGLE_CLIENT_ID"),
         client_x509_cert_url: env("STRAPI_GOOGLE_CLIENT_X509_CERT_URL"),
+        apiOptions: {
+          //Cloud Translate API options ...
+        },
       },
       translatedFieldTypes: [
         "string",
