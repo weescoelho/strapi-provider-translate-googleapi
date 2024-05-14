@@ -1,0 +1,36 @@
+{
+  "name": "strapi-provider-translate-google",
+  "version": "1.0.0",
+  "description": "Cloud Translate API Google integration for Strapi 4",
+  "main": "./lib",
+  "keywords": [
+    "strapi",
+    "translate",
+    "provider",
+    "google"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/weescoelho/strapi-provider-translate-google",
+  "author": {
+    "name": "Weslley Coelho",
+    "email": "wes.coelho18@gmail.com",
+    "url": "https://github.com/weescoelho"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weescoelho/strapi-provider-translate-google"
+  },
+  "bugs": {
+    "url": "https://github.com/weescoelho/strapi-provider-translate-google"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/translate": "^8.2.0",
+    "bottleneck": "^2.19.5"
+  }
+}
